@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body align="center">
+     <h1> html forms </h1>
+    <form action="" method="POST">
+        {%  csrf_token %}
+         <label for="'sn">s_name</label>
+        <input type="text" name="sn" id="sn">  <br>
+
+        <label for="sl">slocation</label>
+        <input type="text" name="sl" id="sl"> <br>
+          
+        <label for="sp">spricipal</label>
+        <input type="text" name="sp" id="sp"> <br>
+
+        <input type="submit" value="create_school">
+
+
+    </form>
+</body>
+</html>
